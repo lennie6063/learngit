@@ -1,0 +1,33 @@
+
+T0F94 003:420 SEGGER J-Link V4.80g Log File (0000ms, 0271ms total)
+T0F94 003:420 DLL Compiled: Feb 13 2014 20:50:02 (0000ms, 0271ms total)
+T0F94 003:420 Logging started @ 2014-05-06 13:41 (0001ms, 0272ms total)
+T0F94 003:421 JLINK_SetWarnOutHandler(...) (0000ms, 0272ms total)
+T0F94 003:421 JLINK_OpenEx(...)
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N: 99999994
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFULL  returns O.K. (0268ms, 0540ms total)
+T0F94 003:689 JLINK_SetErrorOutHandler(...) (0000ms, 0540ms total)
+T0F94 003:690 JLINK_ExecCommand("ProjectFile = "E:\06 stm32¿Î¼þppt\³ÌÐòÄ£°å\stm32f103\project\JLinkSettings.ini"", ...)  returns 0x00 (0000ms, 0540ms total)
+T0F94 003:690 JLINK_ExecCommand("Device = STM32F103RB", ...)Device "STM32F103RB" selected (128 KB flash, 20 KB RAM).  returns 0x00 (0000ms, 0540ms total)
+T0F94 003:691 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 0540ms total)
+T0F94 003:691 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0540ms total)
+T0F94 003:691 JLINK_GetDLLVersion()  returns 48007 (0000ms, 0540ms total)
+T0F94 003:691 JLINK_GetFirmwareString(...) (0000ms, 0540ms total)
+T0F94 003:691 JLINK_GetDLLVersion()  returns 48007 (0000ms, 0540ms total)
+T0F94 003:691 JLINK_GetCompileDateTime() (0000ms, 0540ms total)
+T0F94 003:691 JLINK_GetFirmwareString(...) (0000ms, 0540ms total)
+T0F94 003:691 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0540ms total)
+T0F94 003:691 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0004ms, 0544ms total)
+T0F94 003:695 JLINK_SetSpeed(10000) (0002ms, 0546ms total)
+T0F94 003:697 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 0546ms total)
+T0F94 003:697 JLINK_Reset() >0x108 TIF>Found SWD-DP with ID 0x1BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x108 TIF>Found SWD-DP with ID 0x1BA01477 >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>
+ >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>Found Cortex-M3 r1p1, Little endian. -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE0002000)FPUnit: 6 code (BP) slots and 2 literal slots
+ -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000) -- CPU_ReadMem(4 bytes @ 0xE00FF010)TPIU fitted. -- CPU_ReadMem(4 bytes @ 0xE00FF014) -- CPU_ReadMem(4 bytes @ 0xE00FF018) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) >0x35 TIF> -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) (0104ms, 0650ms total)
+T0F94 003:801 JLINK_GetId() >0x0D TIF> >0x21 TIF>  returns 0x1BA01477 (0002ms, 0652ms total)
+T0F94 003:805 JLINK_GetFirmwareString(...) (0000ms, 0652ms total)
+T0F94 005:137 JLINK_Close() -- CPU_WriteMem(4 bytes @ 0xE0001004) >0x42 TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> (0010ms, 0662ms total)
+T0F94 005:137  (0010ms, 0662ms total)
+T0F94 005:137 Closed (0010ms, 0662ms total)
